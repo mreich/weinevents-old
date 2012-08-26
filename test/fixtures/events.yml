@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  status_id: 1
+  name: MyString
+  description: MyString
+  start_datetime: MyString
+  end_datetime: MyString
+  cost: MyString
+  website: MyString
+  organizer: 
+
+two:
+  status_id: 1
+  name: MyString
+  description: MyString
+  start_datetime: MyString
+  end_datetime: MyString
+  cost: MyString
+  website: MyString
+  organizer: 

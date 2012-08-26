@@ -1,0 +1,44 @@
+<%= div_for event do%>
+  <h3>
+    <%= link_to event.name, event%>
+      <span class='actions'>
+        <%= link_to "Edit", edit_event_path(event) %>
+        <%= link_to "Delete", event, :confirm => "Are you sure?", :method => :delete %>
+      </span>   
+  </h3>
+
+<p>
+  <b>Description:</b>
+  <%= @event.description %>
+</p>
+
+<p>
+  <b>Start datetime:</b>
+  <%= @event.start_datetime %>
+</p>
+
+<p>
+  <b>End datetime:</b>
+  <%= @event.end_datetime %>
+</p>
+
+<p>
+  <b>Cost:</b>
+  <%= @event.cost %>
+</p>
+
+<p>
+  <b>Website:</b>
+  <%= @event.website %>
+</p>
+
+<p>
+  <b>Organizer:</b>
+  <%= @event.organizer.name %>
+</p>
+
+
+<%= link_to 'Edit', edit_event_path(@event) %> |
+<%= link_to 'Back', events_path %>
+
+<% end %>

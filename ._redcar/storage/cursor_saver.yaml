@@ -1,0 +1,237 @@
+--- 
+cursor_positions: 
+  - :path: db/migrate/20120810025830_create_events.rb
+    :cursor_offset: 0
+    :timestamp: 2012-08-09 22:58:30.609000 -04:00
+  - :path: db/migrate/20120812210509_add_location_id_to_event.rb
+    :cursor_offset: 0
+    :timestamp: 2012-08-12 17:05:09.139000 -04:00
+  - :path: app/models/countryregion.rb
+    :cursor_offset: 83
+    :timestamp: 2012-08-21 00:17:40.906000 -04:00
+  - :path: app/models/regionsitecity.rb
+    :cursor_offset: 85
+    :timestamp: 2012-08-21 00:17:30.156000 -04:00
+  - :path: app/models/organizeruser.rb
+    :cursor_offset: 103
+    :timestamp: 2012-08-21 00:17:04.804000 -04:00
+  - :path: app/models/locationuser.rb
+    :cursor_offset: 102
+    :timestamp: 2012-08-21 00:17:19.108000 -04:00
+  - :path: app/models/locationorganizer.rb
+    :cursor_offset: 71
+    :timestamp: 2012-08-21 00:16:29.884000 -04:00
+  - :path: app/models/eventtag.rb
+    :cursor_offset: 38
+    :timestamp: 2012-08-21 00:16:16.196000 -04:00
+  - :path: app/models/eventregion.rb
+    :cursor_offset: 79
+    :timestamp: 2012-08-21 00:16:02.748000 -04:00
+  - :path: app/models/eventuser.rb
+    :cursor_offset: 94
+    :timestamp: 2012-08-21 00:15:48.404000 -04:00
+  - :path: app/models/eventlocation.rb
+    :cursor_offset: 83
+    :timestamp: 2012-08-21 00:15:34.835000 -04:00
+  - :path: app/models/categoryevent.rb
+    :cursor_offset: 83
+    :timestamp: 2012-08-21 00:15:23.197000 -04:00
+  - :path: app/models/category.rb
+    :cursor_offset: 90
+    :timestamp: 2012-08-21 00:14:02.043000 -04:00
+  - :path: db/migrate/20120821041022_create_countryregions.rb
+    :cursor_offset: 0
+    :timestamp: 2012-08-21 00:10:22.334000 -04:00
+  - :path: db/migrate/20120821040857_create_roles.rb
+    :cursor_offset: 0
+    :timestamp: 2012-08-21 00:08:57.240000 -04:00
+  - :path: db/migrate/20120821040813_create_countries.rb
+    :cursor_offset: 0
+    :timestamp: 2012-08-21 00:08:13.374000 -04:00
+  - :path: db/migrate/20120821040831_create_categories.rb
+    :cursor_offset: 0
+    :timestamp: 2012-08-21 00:08:31.458000 -04:00
+  - :path: app/models/sitecity.rb
+    :cursor_offset: 36
+    :timestamp: 2012-08-21 00:51:51.932000 -04:00
+    :selection_offset: 174
+    :block_selection_mode: false
+  - :path: db/migrate/20120821040840_create_sitecities.rb
+    :cursor_offset: 0
+    :timestamp: 2012-08-21 00:08:40.038000 -04:00
+  - :path: db/migrate/20120825133948_create_cities.rb
+    :cursor_offset: 0
+    :timestamp: 2012-08-25 09:39:48.214000 -04:00
+  - :path: app/models/regions_sitecities.rb
+    :cursor_offset: 0
+    :timestamp: 2012-08-25 01:29:51.926000 -04:00
+  - :path: db/migrate/20120825135302_rename_sitecity_id_to_city_id.rb
+    :cursor_offset: 192
+    :timestamp: 2012-08-25 09:54:30.117000 -04:00
+  - :path: db/production.sqlite3
+    :cursor_offset: 0
+    :timestamp: 2012-08-09 22:34:37.410000 -04:00
+  - :path: app/models/location.rb
+    :cursor_offset: 230
+    :timestamp: 2012-08-25 10:04:14.945000 -04:00
+  - :path: app/models/cities_regions.rb
+    :cursor_offset: 0
+    :timestamp: 2012-08-25 09:44:33.037000 -04:00
+  - :path: app/models/city.rb
+    :cursor_offset: 171
+    :timestamp: 2012-08-25 09:40:47.594000 -04:00
+  - :path: app/models/countries_regions.rb
+    :cursor_offset: 0
+    :timestamp: 2012-08-25 01:30:35.857000 -04:00
+  - :path: app/models/country.rb
+    :cursor_offset: 0
+    :timestamp: 2012-08-21 00:51:37.875000 -04:00
+  - :path: app/models/events_locations.rb
+    :cursor_offset: 0
+    :timestamp: 2012-08-25 01:19:47.526000 -04:00
+  - :path: app/models/organizer.rb
+    :cursor_offset: 231
+    :timestamp: 2012-08-25 10:17:22.491000 -04:00
+  - :path: app/models/organizers_users.rb
+    :cursor_offset: 0
+    :timestamp: 2012-08-25 01:29:36.613000 -04:00
+  - :path: app/models/profile.rb
+    :cursor_offset: 0
+    :timestamp: 2012-08-21 00:42:00.729000 -04:00
+  - :path: app/models/region.rb
+    :cursor_offset: 154
+    :timestamp: 2012-08-25 10:05:00.720000 -04:00
+  - :path: app/models/role.rb
+    :cursor_offset: 129
+    :timestamp: 2012-08-21 00:43:34.681000 -04:00
+  - :path: app/models/status.rb
+    :cursor_offset: 269
+    :timestamp: 2012-08-25 10:05:53.408000 -04:00
+  - :path: app/models/tag.rb
+    :cursor_offset: 0
+    :timestamp: 2012-08-21 00:50:26.150000 -04:00
+  - :path: db/migrate/20120825051733_create_events_locations.rb
+    :cursor_offset: 0
+    :timestamp: 2012-08-25 01:21:19.053000 -04:00
+  - :path: db/migrate/20120825141422_add_website_and_city_id_to_organizers.rb
+    :cursor_offset: 170
+    :timestamp: 2012-08-25 10:16:44.108000 -04:00
+  - :path: db/migrate/20120825141613_add_city_to_locations.rb
+    :cursor_offset: 109
+    :timestamp: 2012-08-25 10:22:09.120000 -04:00
+  - :path: db/migrate/20120821040821_create_tags.rb
+    :cursor_offset: 0
+    :timestamp: 2012-08-21 00:08:21.230000 -04:00
+  - :path: db/migrate/20120821040804_create_regions.rb
+    :cursor_offset: 0
+    :timestamp: 2012-08-21 00:08:04.772000 -04:00
+  - :path: db/migrate/20120825135842_rename_city_to_addresscity.rb
+    :cursor_offset: 285
+    :timestamp: 2012-08-25 10:03:19.251000 -04:00
+  - :path: db/migrate/20120825134433_create_cities_regions.rb
+    :cursor_offset: 0
+    :timestamp: 2012-08-25 09:44:33.034000 -04:00
+  - :path: db/migrate/20120825041252_add_sitecity_to_location.rb
+    :cursor_offset: 116
+    :timestamp: 2012-08-25 00:20:56.079000 -04:00
+  - :path: db/migrate/20120821040736_create_locations.rb
+    :cursor_offset: 0
+    :timestamp: 2012-08-21 00:07:36.780000 -04:00
+  - :path: db/migrate/20120821040746_create_users.rb
+    :cursor_offset: 0
+    :timestamp: 2012-08-21 00:07:46.149000 -04:00
+  - :path: db/migrate/20120821040712_create_organizers.rb
+    :cursor_offset: 0
+    :timestamp: 2012-08-21 00:07:12.445000 -04:00
+  - :path: db/migrate/20120821033822_create_events.rb
+    :cursor_offset: 300
+    :timestamp: 2012-08-20 23:38:22.380000 -04:00
+    :selection_offset: 291
+    :block_selection_mode: false
+  - :path: app/models/event.rb
+    :cursor_offset: 0
+    :timestamp: 2012-08-21 01:23:25.015000 -04:00
+  - :path: db/migrate/20120821040756_create_profiles.rb
+    :cursor_offset: 0
+    :timestamp: 2012-08-21 00:07:56.350000 -04:00
+  - :path: db/migrate/20120825041202_add_website_and_sitecity_id_to_organizer.rb
+    :cursor_offset: 156
+    :timestamp: 2012-08-25 09:49:34.239000 -04:00
+  - :path: app/views/events/new.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-08-20 23:38:22.638000 -04:00
+  - :path: app/views/events/index.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-08-21 23:11:43.999000 -04:00
+  - :path: app/views/events/_form.html.erb
+    :cursor_offset: 617
+    :timestamp: 2012-08-25 12:08:42.326000 -04:00
+  - :path: app/controllers/events_controller.rb
+    :cursor_offset: 0
+    :timestamp: 2012-08-20 23:38:22.502000 -04:00
+  - :path: test/fixtures/countries_regions.yml
+    :cursor_offset: 0
+    :timestamp: 2012-08-25 01:30:35.923000 -04:00
+  - :path: test/fixtures/categories_events.yml
+    :cursor_offset: 0
+    :timestamp: 2012-08-25 01:09:41.260000 -04:00
+  - :path: test/fixtures/cities.yml
+    :cursor_offset: 0
+    :timestamp: 2012-08-25 09:39:48.267000 -04:00
+  - :path: db/seeds.rb
+    :cursor_offset: 1987
+    :timestamp: 2012-08-25 13:52:10.902000 -04:00
+  - :path: db/schema.rb
+    :cursor_offset: 2387
+    :timestamp: 2012-08-25 11:39:09.689000 -04:00
+  - :path: app/views/events/edit.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-08-20 23:38:22.626000 -04:00
+  - :path: app\views\events\_event.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-08-25 13:49:43.013000 -04:00
+  - :path: db/migrate/20120825153644_change_data_type_for_start_datetime_and_end_datetime.rb
+    :cursor_offset: 347
+    :timestamp: 2012-08-25 11:38:45.728000 -04:00
+  - :path: config/locales/en.yml
+    :cursor_offset: 0
+    :timestamp: 2012-08-08 23:24:34.701000 -04:00
+  - :path: config/application.rb
+    :cursor_offset: 1425
+    :timestamp: 2012-08-08 23:24:33.479000 -04:00
+    :selection_offset: 1431
+    :block_selection_mode: false
+  - :path: app\views\users\edit.html.erb
+    :cursor_offset: 59
+    :timestamp: 2012-08-25 12:34:18.953000 -04:00
+  - :path: app\views\users\_form.html.erb
+    :cursor_offset: 30
+    :timestamp: 2012-08-25 12:45:44.390000 -04:00
+  - :path: app/views/events/_event.html.erb
+    :cursor_offset: 490
+    :timestamp: 2012-08-25 20:46:49.647000 -04:00
+  - :path: app/views/layouts/application.html.erb
+    :cursor_offset: 329
+    :timestamp: 2012-08-25 13:54:36.054000 -04:00
+  - :path: app/views/events/show.html.erb
+    :cursor_offset: 17
+    :timestamp: 2012-08-25 14:01:38.843000 -04:00
+  - :path: app/controllers/users_controller.rb
+    :cursor_offset: 570
+    :timestamp: 2012-08-25 12:30:55.898000 -04:00
+  - :path: app/models/user.rb
+    :cursor_offset: 1083
+    :timestamp: 2012-08-25 00:04:27.753000 -04:00
+  - :path: config/routes.rb
+    :cursor_offset: 221
+    :timestamp: 2012-08-26 09:42:50.648000 -04:00
+  - :path: config/initializers/session_store.rb
+    :cursor_offset: 421
+    :timestamp: 2012-08-26 08:56:45.316000 -04:00
+  - :path: app/controllers/sessions_controller.rb
+    :cursor_offset: 154
+    :timestamp: 2012-08-26 09:52:50.364000 -04:00
+  - :path: app\views\sessions\new.html.erb
+    :cursor_offset: 283
+    :timestamp: 2012-08-26 09:45:58.310000 -04:00
+files_to_retain: 0

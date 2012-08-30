@@ -1,4 +1,4 @@
-1345990052
+1346000091
 AddCityToLocations	C:/Sites/weinevents/db/migrate/20120825141613_add_city_to_locations.rb	class AddCityToLocations 
 AddSessionsTable	C:/Sites/weinevents/db/migrate/20120826004418_add_sessions_table.rb	class AddSessionsTable 
 AddSitecityToLocation	C:/Sites/weinevents/db/migrate/20120825041252_add_sitecity_to_location.rb	class AddSitecityToLocation 

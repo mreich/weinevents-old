@@ -1,3 +1,5 @@
 --- 
-open_files: []
-
+open_files: 
+  - db/seeds.rb
+  - app/controllers/events_controller.rb
+  - app/controllers/application_controller.rb

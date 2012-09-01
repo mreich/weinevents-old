@@ -1,4 +1,4 @@
-1346000091
+1346119543
 AddCityToLocations	C:/Sites/weinevents/db/migrate/20120825141613_add_city_to_locations.rb	class AddCityToLocations 
 AddSessionsTable	C:/Sites/weinevents/db/migrate/20120826004418_add_sessions_table.rb	class AddSessionsTable 
 AddSitecityToLocation	C:/Sites/weinevents/db/migrate/20120825041252_add_sitecity_to_location.rb	class AddSitecityToLocation 
@@ -101,6 +101,8 @@ UsersControllerTest	C:/Sites/weinevents/test/functional/users_controller_test.rb
 UsersHelper	C:/Sites/weinevents/app/helpers/users_helper.rb	module UsersHelper
 UsersHelperTest	C:/Sites/weinevents/test/unit/helpers/users_helper_test.rb	class UsersHelperTest 
 Weinevents	C:/Sites/weinevents/config/application.rb	module Weinevents
+access_denied	C:/Sites/weinevents/app/controllers/application_controller.rb	    def access_denied
+authenticate	C:/Sites/weinevents/app/controllers/application_controller.rb	    def authenticate
 authenticate	C:/Sites/weinevents/app/models/user.rb	  def self.authenticate(email, password)
 authenticated?	C:/Sites/weinevents/app/models/user.rb	  def authenticated?(password)
 change	C:/Sites/weinevents/db/migrate/20120821033822_create_events.rb	  def change
@@ -129,11 +131,12 @@ change	C:/Sites/weinevents/db/migrate/20120825134433_create_cities_regions.rb	  
 change	C:/Sites/weinevents/db/migrate/20120825041202_add_website_and_sitecity_id_to_organizer.rb	  def change
 change	C:/Sites/weinevents/db/migrate/20120825141613_add_city_to_locations.rb	  def change
 change	C:/Sites/weinevents/db/migrate/20120826004418_add_sessions_table.rb	  def change
+create	C:/Sites/weinevents/app/controllers/sessions_controller.rb	def create
 create	C:/Sites/weinevents/app/controllers/events_controller.rb	  def create
 create	C:/Sites/weinevents/app/controllers/users_controller.rb	  def create
-create	C:/Sites/weinevents/app/controllers/sessions_controller.rb	def create
-destroy	C:/Sites/weinevents/app/controllers/events_controller.rb	  def destroy
+current_user	C:/Sites/weinevents/app/controllers/application_controller.rb	    def current_user
 destroy	C:/Sites/weinevents/app/controllers/sessions_controller.rb	def destroy
+destroy	C:/Sites/weinevents/app/controllers/events_controller.rb	  def destroy
 down	C:/Sites/weinevents/db/migrate/20120825135842_rename_city_to_addresscity.rb	  def down
 down	C:/Sites/weinevents/db/migrate/20120825153644_change_data_type_for_start_datetime_and_end_datetime.rb	  def down
 edit	C:/Sites/weinevents/app/controllers/events_controller.rb	  def edit
@@ -141,8 +144,10 @@ edit	C:/Sites/weinevents/app/controllers/users_controller.rb	  def edit
 encrypt	C:/Sites/weinevents/app/models/user.rb	    def encrypt(string)
 encrypt_new_password	C:/Sites/weinevents/app/models/user.rb	    def encrypt_new_password
 index	C:/Sites/weinevents/app/controllers/events_controller.rb	  def index
+logged_in?	C:/Sites/weinevents/app/controllers/application_controller.rb	    def logged_in?
 new	C:/Sites/weinevents/app/controllers/events_controller.rb	  def new
 new	C:/Sites/weinevents/app/controllers/users_controller.rb	  def new
+owned_by?	C:/Sites/weinevents/app/models/event.rb	  def owned_by?(owner)
 password	C:/Sites/weinevents/app/models/user.rb	  attr_accessor :password
 password_required?	C:/Sites/weinevents/app/models/user.rb	    def password_required?
 show	C:/Sites/weinevents/app/controllers/events_controller.rb	  def show

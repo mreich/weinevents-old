@@ -35,7 +35,7 @@
   <div class="field">
     <%= f.label "Tags"%> <br />
     <% for tag in Tag.all %>
-      <%= check_box_tag 'event[tag_ids][]', tag.id, @event.tag_ids.include?(tag_id), :id => dom_id(tag) %>
+      <%= check_box_tag 'event[tag_ids][]', tag.id, @event.tag_ids.include?(tag.id), :id => dom_id(tag) %>
       <%= label_tag dom_id(tag), tag.name, :class => "check_box_label" %>
     <% end %>
   </div>  

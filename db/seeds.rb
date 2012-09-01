@@ -39,7 +39,7 @@ location = Location.create    :status_id => '1',
                               :addresscity => 'Erlangen',
                               :state => 'Bayern',
                               :zip => '91052',
-                              :phone => ''x,
+                              :phone => '',
                               :city_id => '1'
 
 profile = Profile.create      :status_id => '1',

@@ -71,9 +71,6 @@ cursor_positions:
   - :path: db/production.sqlite3
     :cursor_offset: 0
     :timestamp: 2012-08-09 22:34:37.410000 -04:00
-  - :path: app/models/location.rb
-    :cursor_offset: 230
-    :timestamp: 2012-08-25 10:04:14.945000 -04:00
   - :path: app/models/cities_regions.rb
     :cursor_offset: 0
     :timestamp: 2012-08-25 09:44:33.037000 -04:00
@@ -154,15 +151,6 @@ cursor_positions:
   - :path: db/migrate/20120825041202_add_website_and_sitecity_id_to_organizer.rb
     :cursor_offset: 156
     :timestamp: 2012-08-25 09:49:34.239000 -04:00
-  - :path: app/views/events/new.html.erb
-    :cursor_offset: 0
-    :timestamp: 2012-08-20 23:38:22.638000 -04:00
-  - :path: app/views/events/index.html.erb
-    :cursor_offset: 0
-    :timestamp: 2012-08-21 23:11:43.999000 -04:00
-  - :path: app/views/events/_form.html.erb
-    :cursor_offset: 617
-    :timestamp: 2012-08-25 12:08:42.326000 -04:00
   - :path: test/fixtures/countries_regions.yml
     :cursor_offset: 0
     :timestamp: 2012-08-25 01:30:35.923000 -04:00
@@ -175,9 +163,6 @@ cursor_positions:
   - :path: db/schema.rb
     :cursor_offset: 2387
     :timestamp: 2012-08-25 11:39:09.689000 -04:00
-  - :path: app/views/events/edit.html.erb
-    :cursor_offset: 0
-    :timestamp: 2012-08-20 23:38:22.626000 -04:00
   - :path: app\views\events\_event.html.erb
     :cursor_offset: 0
     :timestamp: 2012-08-25 13:49:43.013000 -04:00
@@ -198,24 +183,9 @@ cursor_positions:
   - :path: app\views\users\_form.html.erb
     :cursor_offset: 30
     :timestamp: 2012-08-25 12:45:44.390000 -04:00
-  - :path: app/views/events/_event.html.erb
-    :cursor_offset: 490
-    :timestamp: 2012-08-25 20:46:49.647000 -04:00
   - :path: app/views/layouts/application.html.erb
     :cursor_offset: 329
     :timestamp: 2012-08-25 13:54:36.054000 -04:00
-  - :path: app/views/events/show.html.erb
-    :cursor_offset: 17
-    :timestamp: 2012-08-25 14:01:38.843000 -04:00
-  - :path: app/controllers/users_controller.rb
-    :cursor_offset: 570
-    :timestamp: 2012-08-25 12:30:55.898000 -04:00
-  - :path: app/models/user.rb
-    :cursor_offset: 1083
-    :timestamp: 2012-08-25 00:04:27.753000 -04:00
-  - :path: config/routes.rb
-    :cursor_offset: 221
-    :timestamp: 2012-08-26 09:42:50.648000 -04:00
   - :path: config/initializers/session_store.rb
     :cursor_offset: 421
     :timestamp: 2012-08-26 08:56:45.316000 -04:00
@@ -225,13 +195,55 @@ cursor_positions:
   - :path: app\views\sessions\new.html.erb
     :cursor_offset: 283
     :timestamp: 2012-08-26 09:45:58.310000 -04:00
-  - :path: app/controllers/events_controller.rb
-    :cursor_offset: 0
-    :timestamp: 2012-08-20 23:38:22.502000 -04:00
-  - :path: db/seeds.rb
-    :cursor_offset: 1987
-    :timestamp: 2012-08-25 13:52:10.902000 -04:00
   - :path: app/models/event.rb
     :cursor_offset: 0
     :timestamp: 2012-08-21 01:23:25.015000 -04:00
+  - :path: app/views/events/_event.html.erb
+    :cursor_offset: 490
+    :timestamp: 2012-08-25 20:46:49.647000 -04:00
+  - :path: app/views/events/show.html.erb
+    :cursor_offset: 17
+    :timestamp: 2012-08-25 14:01:38.843000 -04:00
+  - :path: db/seeds.rb
+    :cursor_offset: 1986
+    :timestamp: 2012-08-27 06:48:24.157000 -04:00
+  - :path: app/controllers/application_controller.rb
+    :cursor_offset: 825
+    :timestamp: 2012-08-27 20:56:35.040000 -04:00
+  - :path: app/controllers/events_controller.rb
+    :cursor_offset: 79
+    :timestamp: 2012-08-27 20:57:17.478000 -04:00
+  - :path: config/routes.rb
+    :cursor_offset: 221
+    :timestamp: 2012-08-26 09:42:50.648000 -04:00
+  - :path: app/views/users/new.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-08-25 12:33:41.315000 -04:00
+  - :path: app/views/users/edit.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-08-25 12:34:18.953000 -04:00
+  - :path: app/views/users/_form.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-08-25 12:45:44.390000 -04:00
+  - :path: app/controllers/users_controller.rb
+    :cursor_offset: 393
+    :timestamp: 2012-08-27 20:59:33.510000 -04:00
+  - :path: app/views/events/_form.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-08-26 13:03:46.590000 -04:00
+  - :path: app/views/events/edit.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-08-20 23:38:22.626000 -04:00
+  - :path: app/views/events/new.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-08-20 23:38:22.638000 -04:00
+  - :path: app/views/events/index.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-08-21 23:11:43.999000 -04:00
+  - :path: app/models/user.rb
+    :cursor_offset: 544
+    :timestamp: 2012-08-27 21:59:12.558000 -04:00
+  - :path: app/models/location.rb
+    :cursor_offset: 230
+    :timestamp: 2012-08-25 10:04:14.945000 -04:00
 files_to_retain: 0

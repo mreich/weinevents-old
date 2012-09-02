@@ -21,10 +21,8 @@ ActiveRecord::Schema.define(:version => 20120826004418) do
   end
 
   create_table "categories_events", :id => false, :force => true do |t|
-    t.integer  "event_id"
-    t.integer  "category_id"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.integer "event_id"
+    t.integer "category_id"
   end
 
   create_table "cities", :force => true do |t|
@@ -36,10 +34,8 @@ ActiveRecord::Schema.define(:version => 20120826004418) do
   end
 
   create_table "cities_regions", :force => true do |t|
-    t.integer  "city_id"
-    t.integer  "region_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.integer "city_id"
+    t.integer "region_id"
   end
 
   add_index "cities_regions", ["city_id"], :name => "index_cities_regions_on_city_id"
@@ -54,10 +50,8 @@ ActiveRecord::Schema.define(:version => 20120826004418) do
   end
 
   create_table "countries_regions", :id => false, :force => true do |t|
-    t.integer  "country_id"
-    t.integer  "region_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.integer "country_id"
+    t.integer "region_id"
   end
 
   create_table "events", :force => true do |t|
@@ -76,24 +70,18 @@ ActiveRecord::Schema.define(:version => 20120826004418) do
   add_index "events", ["organizer_id"], :name => "index_events_on_organizer_id"
 
   create_table "events_locations", :id => false, :force => true do |t|
-    t.integer  "event_id"
-    t.integer  "location_id"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.integer "event_id"
+    t.integer "location_id"
   end
 
   create_table "events_regions", :id => false, :force => true do |t|
-    t.integer  "event_id"
-    t.integer  "region_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.integer "event_id"
+    t.integer "region_id"
   end
 
   create_table "events_tags", :id => false, :force => true do |t|
-    t.integer  "event_id"
-    t.integer  "tag_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.integer "event_id"
+    t.integer "tag_id"
   end
 
   create_table "events_users", :force => true do |t|
@@ -120,10 +108,8 @@ ActiveRecord::Schema.define(:version => 20120826004418) do
   end
 
   create_table "locations_organizers", :id => false, :force => true do |t|
-    t.integer  "organizer_id"
-    t.integer  "location_id"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
+    t.integer "organizer_id"
+    t.integer "location_id"
   end
 
   create_table "locations_users", :force => true do |t|

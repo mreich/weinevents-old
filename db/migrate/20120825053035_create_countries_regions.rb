@@ -3,8 +3,6 @@ class CreateCountriesRegions < ActiveRecord::Migration
     create_table :countries_regions, :id => false do |t|
       t.references :country
       t.references :region
-
-      t.timestamps
     end
   end
 end

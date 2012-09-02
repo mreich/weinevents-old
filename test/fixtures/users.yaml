@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+michael:
+  status_id: 1
+  email: 'reich.michael@gmail.com'
+  hashed_password: 'MyString', # => secret
+
+karen:
+  status_id: 1
+  email: 'karenjillong@gmail.com'
+  hashed_password: 'MyString', # => secret

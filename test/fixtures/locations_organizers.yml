@@ -1,9 +1,9 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  organizer: 
-  location: 
+  organizer_id: 1
+  location_id: 1
 
 two:
-  organizer: 
-  location: 
+  organizer_id: 1
+  location_id: 1

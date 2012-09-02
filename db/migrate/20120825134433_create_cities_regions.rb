@@ -1,6 +1,6 @@
 class CreateCitiesRegions < ActiveRecord::Migration
   def change
-    create_table :cities_regions do |t|
+    create_table :cities_regions, :id => false do |t|
       t.references :city
       t.references :region
     end

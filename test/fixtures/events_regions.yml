@@ -1,9 +1,9 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  event: 
-  region: 
-
+  event_id: 1
+  region_id: 1
+  
 two:
-  event: 
-  region: 
+  event_id: 1
+  region_id: 1

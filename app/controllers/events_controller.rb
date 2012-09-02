@@ -1,5 +1,5 @@
 class EventsController < ApplicationController
-  before_filter :authenticate, :except => [:index, :show]
+  before_filter :authenticate, :except => [:index, :show, :notify_friend]
   
   # GET /events
   # GET /events.json
@@ -81,5 +81,11 @@ class EventsController < ApplicationController
       format.html { redirect_to events_url }
       format.json { head :no_content }
     end
+  end
+  
+  def notify_friend
+    @event = Event.find(params[:id])
+    Notifier.email_friend(@event, params[:name], params[:email]).deliver
+    redirect_to @event, :notice => "Ihre Email wurde erfolgreich versendet"
   end
 end

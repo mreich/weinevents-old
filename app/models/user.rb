@@ -16,6 +16,7 @@ class User < ActiveRecord::Base
             
   belongs_to :status
   has_one :profile
+  has_many :events_users
   has_many :events, :through => :events_users
   has_many :organizers, :through => :organizers_users
 

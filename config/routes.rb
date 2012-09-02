@@ -1,6 +1,10 @@
 Weinevents::Application.routes.draw do
   root :to => 'events#index'
-  resources :events
+  resources :events do
+    member do
+      post :notify_friend
+    end
+  end
   resources :users
   resource :session
   match '/login' => "sessions#new", :as => "login"

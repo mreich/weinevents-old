@@ -10,7 +10,7 @@ weinevent_in_erlangen:
   website: www.Erlangen.de
   organizer: 1
 
-Weinevent_in_bamberg:
+weinevent_in_bamberg:
   status_id: 1
   name: "Weinevent in Bamberg"
   description: "So ein nettes Weinevent in Bamberg"

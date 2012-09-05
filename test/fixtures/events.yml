@@ -4,18 +4,14 @@ weinevent_in_erlangen:
   status_id: 1
   name: "Weinevent in Erlangen"
   description: "So ein nettes Weinevent in Erlangen"
-  start_datetime: 2012-08-15 00:00:00
-  end_datetime: 2012-08-17 00:00:00
   cost: 50 EUR
   website: www.Erlangen.de
-  organizer: 1
+  organizer_id: 1
 
 weinevent_in_bamberg:
   status_id: 1
   name: "Weinevent in Bamberg"
   description: "So ein nettes Weinevent in Bamberg"
-  start_datetime: 2012-08-20 00:00:00
-  end_datetime: 2012-08-22 15:00:00
   cost: 100 EUR
   website: www.Bamberg.de
-  organizer: 1
+  organizer_id: 1

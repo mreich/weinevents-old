@@ -3,9 +3,13 @@
 michael:
   status_id: 1
   email: 'reich.michael@gmail.com'
-  hashed_password: 'MyString', # => secret
-
+  hashed_password: 'e5e9fa1ba31ecd1ae84f75caaa474f3a663f05f4', # => secret
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  
 karen:
   status_id: 1
   email: 'karenjillong@gmail.com'
-  hashed_password: 'MyString', # => secret
+  hashed_password: 'e5e9fa1ba31ecd1ae84f75caaa474f3a663f05f4', # => secret
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>

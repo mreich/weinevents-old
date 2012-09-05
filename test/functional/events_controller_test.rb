@@ -13,45 +13,50 @@ class EventsControllerTest < ActionController::TestCase
   end
 
   test "should get new" do
-    login_as (:michael)
+    login_as(:michael)
     get :new
     assert_response :success
   end
 
   test "should create event" do
-    login_as (:michael)
+    login_as(:michael)
     assert_difference('Event.count') do
-      post :create, event: @event => { :name => 'Test Event', :description => 'What a nice test event'}
+      post :create, :event => { :name => 'Test Event', :description => 'What a nice test event'}
     end
     assert_response :redirect
     assert_redirected_to event_path(assigns(:event))
   end
 
   test "should show event" do
-    get :show, id: @event
+    get :show, :id => @event.to_param
+    
     assert_response :success
     assert_template 'show'
+    
     assert_not_nil assigns(:event)
     assert assigns(:event).valid?
   end
 
   test "should get edit" do
-    login_as (:michael)
-    get :edit, id: => @event.to_param
+    login_as(:michael)
+    get :edit, :id => @event.to_param
     assert_response :success
   end
 
   test "should update event" do
-    login_as (:michael)
-    put :update, id: => @event.to_param, event: @event => {:name => 'Test Event' }
+    login_as(:michael)
+    put :update, :id => @event.to_param, :event => {:name => 'Test Event' }
     assert_redirected_to event_path(assigns(:event))
   end
 
   test "should destroy event" do
+    login_as(:michael)
+    assert_nothing_raised { Event.find(@event.to_param) }
     assert_difference('Event.count', -1) do
-      delete :destroy, id: @event
+      delete :destroy, :id => @event.to_param
     end
-
+    assert_response :redirect
     assert_redirected_to events_path
+    assert_raised(ActiveRecord::RecordNotFound) { Event.find(@event.to_param) } 
   end
 end

@@ -1,7 +1,7 @@
-Ihr Freund <%= @sender_name %> moechte Sie auf dieses Wienevent aufmerksam machen:  
+t('notifiers.email_friend.your_friend') <%= @sender_name %> t('notifiers.email_friend.suggests'):  
 
 <%= @event.name %> <%= event_url(@event, :host => "localhost:3000") %>
 
-Viele Gruesse, 
+t('general.greetings'), 
 
-Ihr Weinevents.de Team
+t('general.your_team')

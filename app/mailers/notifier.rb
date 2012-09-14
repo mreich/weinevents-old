@@ -11,6 +11,6 @@ class Notifier < ActionMailer::Base
     @sender_name = sender_name
     @greeting = "Hallo"
     attachments["Weinevents.png"] = File.read(Rails.root.join("app/assets/images/Weinevents.png"))
-    mail to: receiver_email, :subject => 'Interessantes Weinevent'
+    mail to: receiver_email, :subject => t('mailers.notifiers.email_friend.subject')
   end
 end

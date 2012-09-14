@@ -1,4 +1,4 @@
 <%= render @event %>
 
-<%= link_to 'Per Email versenden', '#', :onclick => "$('#notify_friend_form').slideDown()" %>
+<%= link_to t('events.send_by_email'), '#', :onclick => "$('#notify_friend_form').slideDown()" %>
 <%= render 'notify_friend' %>

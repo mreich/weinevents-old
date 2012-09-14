@@ -11,29 +11,26 @@
     </div>
   <% end %>
 
+ 
   <div class="field">
-    <%= f.label :status_id %><br />
-    <%= f.number_field :status_id %>
-  </div>
-  <div class="field">
-    <%= f.label :name %><br />
+    <%= f.label :name, t('events.name')%><br />
     <%= f.text_field :name %>
   </div>
   <div class="field">
-    <%= f.label :description %><br />
+    <%= f.label :description, t('events.description') %><br />
     <%= f.text_area :description %>
   </div>
   <div class="field">
-    <%= f.label :start_datetime %><br />
+    <%= f.label :start_datetime, t('events.start_datetime')  %><br />
     <%= f.datetime_select :start_datetime %>
   </div>
   <div class="field">
-    <%= f.label :end_datetime %><br />
+    <%= f.label :end_datetime, t('events.end_datetime')  %><br />
     <%= f.datetime_select :end_datetime %>
   </div>
 
   <div class="field">
-    <%= f.label "Tags"%> <br />
+    <%= f.label :tags, t('events.tags') %> <br />
     <% for tag in Tag.all %>
       <%= check_box_tag 'event[tag_ids][]', tag.id, @event.tag_ids.include?(tag.id), :id => dom_id(tag) %>
       <%= label_tag dom_id(tag), tag.name, :class => "check_box_label" %>
@@ -41,15 +38,15 @@
   </div>  
   
   <div class="field">
-    <%= f.label :cost %><br />
+    <%= f.label :cost, t('events.cost')%><br />
     <%= f.text_field :cost %>
   </div>
   <div class="field">
-    <%= f.label :website %><br />
+    <%= f.label :website, t('events.website') %><br />
     <%= f.text_field :website %>
   </div>
   <div class="field">
-    <%= f.label :organizer %><br />
+    <%= f.label :organizer, t('events.organizer') %><br />
     <%= f.number_field :organizer_id %>
   </div>
   <div class="actions">

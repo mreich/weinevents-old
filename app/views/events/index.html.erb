@@ -1,4 +1,4 @@
-<h1>Aktuelle Weinevents</h1>
+<h1><%= t('events.listing_events') %></h1>
 
 <table>
   <tr>
@@ -15,9 +15,9 @@
     <td><%= event.name %></td>
     <td><%= event.start_datetime %></td>
     <td><%= event.end_datetime %></td>
-    <td><%= link_to 'Show', event %></td>
-    <td><%= link_to 'Edit', edit_event_path(event) %></td>
-    <td><%= link_to 'Destroy', event, confirm: 'Are you sure?', method: :delete %></td>
+    <td><%= link_to t('general.show'), event %></td>
+    <td><%= link_to t('general.edit'), edit_event_path(event) %></td>
+    <td><%= link_to t('general.destroy'), event, confirm: t('general.are_you_sure'), method: :delete %></td>
   </tr>
 <% end %>
 </table>

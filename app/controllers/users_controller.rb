@@ -8,7 +8,7 @@ class UsersController < ApplicationController
   def create
     @user = User.new (params[:user])
     if @user.save 
-      redirect_to events_path, :notice => 'Ihr Anmeldung war erfolgreich.'
+      redirect_to events_path, :notice => t('users.create_success')
     else
       render :action => 'new'
     end
@@ -21,7 +21,7 @@ class UsersController < ApplicationController
   def update
     @user = current_user
     if @user.update_attributes(params[:user])
-      redirect_to events_path, notice => 'Ihr Profil wurde erfolgreich geaendert.'
+      redirect_to events_path, notice => t('users.update_success')
     else
       render :action => 'edit'
     end

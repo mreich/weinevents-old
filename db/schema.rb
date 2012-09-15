@@ -58,13 +58,13 @@ ActiveRecord::Schema.define(:version => 20120826004418) do
     t.integer  "status_id"
     t.string   "name"
     t.string   "description"
-    t.datetime "start_datetime", :limit => 255
-    t.datetime "end_datetime",   :limit => 255
+    t.datetime "start_datetime"
+    t.datetime "end_datetime"
     t.string   "cost"
     t.string   "website"
     t.integer  "organizer_id"
-    t.datetime "created_at",                    :null => false
-    t.datetime "updated_at",                    :null => false
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
   end
 
   add_index "events", ["organizer_id"], :name => "index_events_on_organizer_id"

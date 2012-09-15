@@ -4,8 +4,8 @@ class CreateEvents < ActiveRecord::Migration
       t.integer :status_id
       t.string :name
       t.string :description
-      t.string :start_datetime
-      t.string :end_datetime
+      t.datetime :start_datetime
+      t.datetime :end_datetime
       t.string :cost
       t.string :website
       t.references :organizer

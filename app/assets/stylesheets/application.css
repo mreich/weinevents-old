@@ -120,8 +120,8 @@ a:hover {
 	float: left;
 	line-height: 21px;
 	vertical-align: center;
-	background-color: #F0F0F0;
-	border: 2px solid #ccc;
+	background-color: #FFFFFF;
+	border: 0px solid #ccc;
 	margin-right: 10px;
 }
 
@@ -139,9 +139,9 @@ a:hover {
 #main form .field, #main form .actions {
 	float: left;
 	font-size: 14px;
-	width: 250px;
+	width: 800px;
 	padding: 2px;
-	border: 2px solid #ccc;
+	border: 0px solid #ccc;
 }
 
 #main form input[type=text], #main form input[type=password], #main form textarea {

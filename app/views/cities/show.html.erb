@@ -1,0 +1,5 @@
+<%= render @city %>
+
+<% if logged_in? %>
+	<%= link_to "Neues Event", new_event_path %>
+<% end %>

@@ -1,0 +1,7 @@
+<h1><%= t('cities.listing_cities') %></h1>
+
+<% @cities.each do |city| %>
+    <%= link_to city.name, events_path %> <br />
+<% end %>
+
+<br />

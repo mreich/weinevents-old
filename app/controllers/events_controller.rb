@@ -1,5 +1,5 @@
 class EventsController < ApplicationController
-  before_filter :authenticate, :except => [:index, :show, :notify_friend]
+  before_filter :authenticate, :except => [:index, :show, :notify_friend, :city_index]
   
   # GET /events
   # GET /events.json
@@ -11,7 +11,16 @@ class EventsController < ApplicationController
       format.json { render json: @events }
     end
   end
-
+  
+  def city_index
+    @events = Event.find_all_by_city_id(params[:city_id])
+    
+    respond_to do |format|
+      format.html # show.html.erb
+      format.json { render json: @event }
+    end
+  end
+  
   # GET /events/1
   # GET /events/1.json
   def show

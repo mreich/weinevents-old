@@ -7,9 +7,11 @@ Weinevents::Application.routes.draw do
   end
   resources :users
   resource :session
+ 
   match '/login' => "sessions#new", :as => "login"
   match '/logout' => "sessions#destroy", :as => "logout"
-
+  match '/cities/:city_id' => 'events#city_index'
+   resources :cities
 end
 
   # The priority is based upon order of creation:

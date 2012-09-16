@@ -237,6 +237,11 @@ de:
     organizer: Veranstalter
     new_event: Neues Weinevent
     send_by_email: Per email verschicken
+    city: Stadt
+
+  cities: 
+      listing_cities: Weinevents in Ihrer Stadt 
+
             
   sessions:
     create_success: Wie wurden erfolgreich eingeloggt.

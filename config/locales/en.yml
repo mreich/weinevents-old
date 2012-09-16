@@ -242,7 +242,10 @@ en:
       notify_friend_success: Your email was sent successfully.
       update_success: Your events was updated successfully.
       send_by_email: Send by email
+      city: City
    
+  cities: 
+      listing_cities: Wine events in your city
       
   sessions:
       create_success: Logged in successfully.

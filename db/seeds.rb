@@ -65,6 +65,10 @@ city = City.create            :status_id => '1',
                               :name => 'Erlangen',
                               :description => 'Erlangen ist eine Universitaetstadt in Mittelfranken.'
                               
+city = City.create            :status_id => '2',
+                              :name => 'Bamberg',
+                              :description => 'Bamberg ist eine Universitaetstadt in Bayern.'  
+                                                          
 status = Status.create        :name => 'active'                              
                               
 role = Role.create            :status_id => '1',
@@ -73,6 +77,9 @@ role = Role.create            :status_id => '1',
 #type = Type.create            :status_id => '1',
 #                              :name => 'Keine Ahnung warum ich einen Type geschaffen habe.'
                               
+city_event = CitiesEvents.create          :event_id => '1',
+                                          :city_id => '1'
+
 category_event = CategoriesEvents.create     :event_id => '1',
                                           :category_id => '1'
                               

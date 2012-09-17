@@ -14,3 +14,11 @@
 /log/*.log
 /tmp
 .DS_Store
+
+# Ignore other not needed files
+doc/
+*.swp
+*~
+.project
+.DS_Store
+.idea
